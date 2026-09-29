@@ -18,6 +18,17 @@ export async function generateMetadata({
   return {
     title: `${project.title} — Kosi Kyrian`,
     description: project.description,
+    openGraph: {
+      title: `${project.title} — Kosi Kyrian`,
+      description: project.description,
+      type: "article",
+      tags: project.tags,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${project.title} — Kosi Kyrian`,
+      description: project.description,
+    },
   };
 }
 

@@ -1,8 +1,8 @@
 const skills = [
   {
     icon: "◈",
-    title: "Data Science",
-    items: ["Data Analysis & Wrangling", "Statistical Methods", "Data Visualization", "Pandas & NumPy"],
+    title: "Data Science & ML",
+    items: ["Data Analysis & Wrangling", "Machine Learning", "Statistical Methods", "Data Visualization", "Pandas & NumPy", "Scikit-learn"],
   },
   {
     icon: "❖",
